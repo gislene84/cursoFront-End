@@ -1,0 +1,38 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+.menu{
+    display: block;/*padrão da div*/
+    width: 900px;/*largura*/
+    /*margin-left: 10px;/*margin esquerda*/
+    /*margin-right: 10px;/*margin direita*/
+    /*margin-top: 10px;/*margin de cima*/
+    /*margin-bottom: 10px;/*margin de baixo*/
+    /*margin: 10px;/*sentido horário*/
+    /*margin: 10px /*de cima/baixo*/ /*50px esquerda/direita;*/
+    margin: 30px /*em cima*/ auto;/*centralizar o elemento*/
+    /*margin é o espaçamento externo*/
+    /*padding é o espaçamento interno*/
+    /*padding-left: 40px;/*espaçamento interno da esquerda*/
+    /*padding-right: 40px;/*espaçamento interno da direita*/
+    /*padding-top: 90px;/*espaçamento interno de cima*/
+    /*padding-bottom: 90px;/*espaçamento interno de baixo*/
+    text-align: center;/*centralizar tudo dentro da div*/
+}
+.menu a{
+    color:red;/*cor da fonte*/
+    border-left: 1px;/*bordar esquerda*/
+    border-right: 1px;/*bordar direita*/
+    border-top: 1px;/*bordar em cima*/
+    border-bottom: 1px;/*bordar em baixo*/
+    border-width: 1px;/*largura da bordar*/
+    border-color: red;/*cor da bordar*/
+    border-style:solid;
+    padding: 8px;/*espaçamento interno*/
+    font-size: 20px;/*tamanho da fonte*/
+    margin: 0 /*nenhuma margem em cima/baixo*/ 10px /*entre os lados*/;
+    text-decoration: none;/*retirar a decoração _ de texto*/
+}
+/*trocando a ordem, sempre o que vai prevalecer será o último*/

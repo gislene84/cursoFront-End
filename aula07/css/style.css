@@ -1,0 +1,12 @@
+.div1{
+    color: red;
+}
+.div2{
+    color: orange;
+}
+.prato p{
+    padding: 0px /*em cima/embaixo*/ 20px /*nas laterais*/;/*espaçamento na altura do lado de dentro dos elementos*/
+    font-size: 1rem;/*tamanho da fonte*/
+    color: orange;
+    background-color: black;
+}

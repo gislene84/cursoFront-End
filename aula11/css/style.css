@@ -1,0 +1,21 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+.artigo{
+    width: 1280px;/*largura*/
+    margin: 40px /*em cima/baixo*/ auto /*centralizar*/;/*tamanho da margem*/ 
+    text-align: center;/*centralizar tudo dentro da div*/
+}
+.artigo h1{
+    color: #069;
+    font-size: 2em /*200% tamanho padrão*/;/*tamanho da fonte*/
+    font-family:'Times New Roman', Times, serif;/*estilo da fonte*/
+    font-style: italic;/*estilo da fonte*/
+
+}
+.artigo p{
+    font-size: 17px;/*tamanho da fonte*/
+    
+}

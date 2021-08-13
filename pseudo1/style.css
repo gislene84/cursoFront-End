@@ -1,0 +1,63 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+.teste, .teste1, .teste2{
+    width: 300px;/*determina a largura da área de conteúdo de um elemento*/
+    height: 30px;/*determina a altura da área do conteúdo de um elemento*/
+    background-color: #ccc;/*cor de fundo*/
+    margin-top: 30px;/*margin de cima*/
+    display: inline-block;/*Um bloco inline é colocado inline (ou seja, na mesma linha do outro bloco), colocando o bloco na mesma linha*/
+    margin-left: 30px;/*margin esquerda*/
+}
+.teste1{
+    background-color: rgb(98,98,98);/*cor de fundo*/
+}
+.teste2{
+    background-color: rgb(50,50,50);/*cor de fundo*/
+}
+/*pseudo classe*/
+/*efeito hover*/
+/*.teste:hover{/*quando o mouse passar na div .teste ele vai ficar azul*/
+    /*background-color: blue;/*cor de fundo*/
+    /*height: 900px;/*determina a altura da área do conteúdo de um elemento*/
+/*}
+.teste:hover, .teste1, .teste2{
+    vertical-align: top;/*propriedade define o alinhamento vertical (como superior, inferior ou meio) do conteúdo,top em cima*/
+/*}*/
+/*ACTIVE
+.teste:active{/*quando o mouse fica pressionado no bloco da div*/
+    /*background-color: black;
+}*/
+/*FOCUS SERVER PARA FORMULÁRIOS*/
+/*.teste:focus{/*quando clicarmos no input no formulário .teste vai aplicar a cor vermelha*/
+    /*background-color: red;
+}
+*/
+.link1:visited{/*quando for visitado o link aplique a cor */
+    
+}
+.link1:link{/*cor do link*/
+    color: orange;/*cor da fonte*/
+}
+ul{
+    list-style-position: inside;
+}
+ul li:nth-of-type(2){
+    color: red;/*cor da fonte*/
+}
+.item{
+    box-sizing: border-box;/*que indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding.*/
+    float: left;/*O elemento flutua à esquerda de seu contêiner*/
+    width: 33.3%;/*determina a largura da área de conteúdo de um elemento*/
+    height: 400px;/*determina a altura da área do conteúdo de um elemento*/
+    background-color: red;/*cor de fundo*/
+    border: 1px solid black;/*tamanho, forma e cor da bordar*/
+}
+.box div:last-of-type{/*colocar a cor verde na div*/
+    background-color: green;
+}

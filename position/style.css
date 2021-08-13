@@ -1,0 +1,37 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+/*
+table{
+    width: 900px;/*determina a largura da área de conteúdo de um elemento*/
+    /*margin: 0 auto;/*espaçamento na largura do lado de fora do elementos,auto centraliza a div*/
+    /*border-collapse: collapse;/*define se as bordas da tabela são recolhidos em uma única fronteira,propriedade define se as bordas da tabela devem ser reduzidas em uma única borda*/
+/*}
+table tr td{
+    background-color: rgb(200,200,200);/*cor da tabela*/
+    /*vertical-align: middle;/*propriedade define o alinhamento vertical (como superior, inferior ou meio) do conteúdo, middle no meio*/
+    /*height: 300px;/*determina a altura da área do conteúdo de um elemento*/
+    /*border: 3px solid black;/*tamanho da bordar, tipo da bordar e cor da bordar
+}
+*/
+.menu-fixed{
+    position: fixed;/*é posicionado em relação à janela de visualização, o que significa que ele sempre permanece no mesmo lugar, mesmo se a página for rolada*/
+    left: 50px;/*esquerda*/
+    top: 300px; /*topo;, espaçamento de cima*/
+    width: 300px;/*determina a largura da área de conteúdo de um elemento*/
+    height: 200px;/*determina a altura da área do conteúdo de um elemento*/
+    background: #069;/*cor de fundo*/
+}
+.box{
+    width: 100%;/*determina a largura da área de conteúdo de um elemento*/
+    height: 1400px;/*determina a altura da área do conteúdo de um elemento*/
+    background:green;/*cor de fundo*/
+}
+.box p{
+    width: 400px;/*determina a largura da área de conteúdo de um elemento*/
+}

@@ -1,0 +1,30 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+.parent{
+    background-color: #069;
+    width: 100%;/*determina a largura da área de conteúdo de um elemento*/
+    padding: 90px 0;/*espaçamento interno, preenchimento superior 90 direito 0*/
+    text-align: center;/*alinhamento do texto no centro*/
+}
+.item{
+    display: inline-block;/*Um bloco inline é colocado inline (ou seja, na mesma linha do outro bloco), colocando o bloco na mesma linha*/
+    margin:20px 0;/*tamanho da margem, 20 superior inferior 0*/
+    width: 300px;/*a largura da área de conteúdo de um elemento*/
+    height: 300px;/*determina a altura da área do conteúdo de um elemento*/
+    background-color: green;/*cor de fundo*/
+}
+.parent div:nth-of-type(2)> div.item/*dentro dessa div, pegue a div.item e coloque a cor vermelha*/{/*aplicar na div 2 a cor vermelha */
+    background-color: red;/*cor de fundo*/
+}
+.parent div:last-child div.item{/*aplicar a cor roxa na última div*/
+    background-color: purple;/*cor de fundo*/
+}
+.parent p:first-of-type{/*primeiro do tipo paragrafo*/
+   color: orange;/*cor da fonte*/
+}

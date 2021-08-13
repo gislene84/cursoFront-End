@@ -1,0 +1,86 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+form{
+    width: 96%;/*determina a largura da área de conteúdo de um elemento,RESPONSIVO, base do formulário*/
+    max-width: 600px;/*largura máxima do elemento, Ele evita que o valor usado da propriedade width se torne maior que o valor especificado por max-width .*/
+    margin: 0 auto;/*espaçamento na largura do lado de fora do elementos,auto centraliza a div*/
+    text-align: center;/*centralizar o texto*/
+}
+form legend{
+    text-align: left;/*alinhamento do texto a esquerda*/
+    font-size: 17px;/*tamanho da fonte*/
+    color: rgb(160, 160, 160);/*cor da fonte*/
+}
+form fieldset{
+    padding: 20px 40px;/*preenchimento 3 de cima/baixo e direita/esquerda 40*/ 
+    border: 1px solid #ccc;/*tamanho, forma e cor da bordar*/
+}
+form input[type=text]:focus{
+    outline: 0;
+}
+form input[type=text]{/*chamar apenas o atributo de "text"*/
+    margin-top: 30px;/*margem a cima*/
+    width: 80%;/*determina a largura da área de conteúdo de um elemento*/
+    display: inline-block;/*Um bloco inline é colocado inline (ou seja, na mesma linha do outro bloco), colocando o bloco na mesma linha*/
+    padding: 10px 13px;/*preenchimento 10 de cima/baixo e direita/esquerda 30*/   
+    border-radius: 10px;/*tamanho da bordar arrendondada*/
+}
+form select{
+    color: rgb(100,100,100);/*cor da fonte*/
+    width: calc(80% + 26px);/*determina a largura da área de conteúdo de um elemento*/
+    margin-top: 30px;/*margem a cima*/
+    display: inline-block;/*Um bloco inline é colocado inline (ou seja, na mesma linha do outro bloco), colocando o bloco na mesma linha*/
+    padding: 10px 13px;/*preenchimento 10 de cima/baixo e direita/esquerda 30*/ 
+    
+}
+form select:hover{/*quando o mouse passa no elemento*/
+    border: 0;
+}
+form h2{
+    margin-top: 20px;/*margim a cima*/
+    color: rgb(100,100,100);/*cor da fonte*/
+}
+.input{
+    display: inline-block;/*Um bloco inline é colocado inline (ou seja, na mesma linha do outro bloco), colocando o bloco na mesma linha*/
+    text-align: left;/*alinhado a esquerda*/
+    margin-top: 20px;/*margem a cima*/
+    font-size: 16px;/*tamanho da fonte*/
+    color: rgb(130,130,130);/*cor da fonte*/
+}
+.input span{
+    margin-left: 13px;/*margem a esquerda 13px*/
+    font-size: 16px;/*tamanho da fonte*/
+    color: rgb(130,130,130);/*cor da fonte*/
+}
+form select option[disabled]{ /*colocar a cor no item desabilitado*/
+    color: orange;/*cor da fonte*/
+}
+form select option:nth-of-type(3){/*colocar a cor no item indicado*/
+    color: red;/*cor da fonte*/
+}
+form input[type=submit]{
+    margin-top: 30px ;/*margem a cima*/
+    border: 2px solid rgb(100,100,100);/*tamanho, forma e cor da bordar*/
+    width: 140px;/*determina a largura da área de conteúdo de um elemento*/
+    height: 40px;/*determina a altura da área do conteúdo de um elemento*/
+    border: 0;/*tamanho da bordar*/
+    background-color:rgb(140, 140, 140);/*cor do fundo*/
+    color: white;/*cor da fonte*/
+    cursor: grab;/*ponteiro com o desenho da mão*/
+    font-size: 16px;/*tamanho da fonte*/
+}
+form textarea{
+    width: 80%;/*determina a largura da área de conteúdo de um elemento*/
+    display: inline-block;/*Um bloco inline é colocado inline (ou seja, na mesma linha do outro bloco), colocando o bloco na mesma linha*/
+    padding: 10px 13px;/*preenchimento 10 de cima/baixo e direita/esquerda 30*/   
+    border-radius: 10px;/*tamanho da bordar arrendondada*/ 
+    border: 1px solid #ccc;/*tamanho, forma e cor da bordar*/
+    resize: none;/*o usuario não pode alterar a dimensão do elemento*/
+    height: 140px;/*determina a altura da área do conteúdo de um elemento*/
+}

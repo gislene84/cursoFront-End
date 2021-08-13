@@ -1,0 +1,25 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+.box, .box2{
+    width: 300px;/*determina a largura da área de conteúdo de um elemento*/
+    margin: 0 /*em cima/embaixo*/ auto /*centraliza*/;/*margin é o espaçamento externo*/
+    background: gray;/*cor da div*/
+    /*
+    overflow-x: scroll;/*na horizontal*/
+    /*overflow-y: hidden;/*na vertical*/
+    
+}
+.box p, .box2 p{
+    width: 100%;/*determina a largura da área de conteúdo de um elemento*/
+}
+.box2{
+    background-color: red;/*cor da div*/
+    display: block;/*não pode ter outros elementos de bloco dentro dele*/
+    margin-top: 20px;/*margem de cima*/
+}

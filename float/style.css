@@ -1,0 +1,31 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+.clear{
+    clear: both;
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+.pai{
+    width: 1280px;/*determina a largura da área de conteúdo de um elemento*/
+    padding: 20px 0;/*o preenchimento cima/embaixo tem 20px e direito e esquerdo tem 0px*/
+    background-color: blue;/*cor da div*/
+    margin: 20px /*em cima*/ auto;/*centralizar o elemento*/
+    /*margin é o espaçamento externo*/
+}
+.child{
+    width: 640px;/*determina a largura da área de conteúdo de um elemento*/
+    height: 300px;/*determina a altura da área do conteúdo de um elemento*/
+    background: red;/*cor da div*/
+    display: inline-block;/*Um bloco inline é colocado inline (ou seja, na mesma linha do conteúdo adjacente), mas comporta-se como se fosse um bloco*/
+    float: left;/* O elemento flutua à direita de seu contêiner*/
+    text-align: center;/*centraliza o texto*/
+    font-size: 40px;/*tamanho da fonte*/
+    padding: 15px 0;/*o preenchimento cima/embaixo tem 15px e direito e esquerdo tem 0px*/
+    color: white;/*cor da fonte*/
+    box-sizing: border-box;/*que indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding.*/
+    border: 1px solid black;/*tamanho da bordar, tipo da borda e cor da bordar*/
+}

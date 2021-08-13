@@ -1,0 +1,17 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+.tipo1{
+    color:rgb(100, 100, 100);/*cor da fonte*/
+}
+.link_{
+    font-size: 30px;/*tamanho da fonte*/
+}
+.tipo2{
+    font-size: 40px;/*tamanho da fonte*/
+}

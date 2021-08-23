@@ -1,0 +1,24 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+
+form{
+    text-align: center;/*alinhar texto no centro*/
+    margin: 20px;/*tamanho da margem*/
+    background-color: #ccc;/*cor de fundo*/
+    padding: 30px 0;/*preenchimento 30 de cima/baixo e direita/esquerda de 0*/ 
+}
+form select{
+    width: 220px;/*determina a largura da área de conteúdo de um elemento*/
+    height: 40px;/*determina a altura da área do conteúdo de um elemento*/
+    appearance: none;/*desativar a aparência (setinha p/ baixo)*/
+    background-image: url('./img/sprite.png');/*imagem no elemento*/
+    cursor: pointer;/*ponteiro com a mão*/
+    background-repeat: no-repeat;/*não repetir a imagem*/
+}

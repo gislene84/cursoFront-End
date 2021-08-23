@@ -1,0 +1,20 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+.parent{
+    width: 50%;/*determina a largura da área de conteúdo de um elemento*/
+    height: 400px;/*determina a altura da área do conteúdo de um elemento*/
+    background-color: orange;/*cor de fundo*/
+}
+.box{
+    width: 50%;/*determina a largura da área de conteúdo de um elemento*/
+    padding-top: 25%;/*preenchimento na altura em cima*/
+    background-color: gray;/*cor de fundo*/
+    display: inline-block;/*Um bloco inline é colocado inline (ou seja, na mesma linha do outro bloco), colocando o bloco na mesma linha*/
+    margin-left: 50%;/*Define a margem esquerda de um elemento*/
+}

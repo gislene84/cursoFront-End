@@ -1,0 +1,48 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    box-sizing: border-box;/*que indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding.*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+.container{
+    width: 98%;/*determina a largura da área de conteúdo de um elemento*/
+    max-width: 1200px;/*largura máxima do elemento*/
+    margin: 0 auto;/*margem cima/baixo de 0, auto centraliza a margem*/
+    background-color: #ccc;/*cor de fundo*/
+}
+.box{
+    border: 1px solid black;/*tamanho, forma e cor da bordar*/
+    width: 33.3%;/*determina a largura da área de conteúdo de um elemento*/
+    height: 300px;/*determina a altura da área do conteúdo de um elemento*/
+    background-color: green;/*cor de fundo*/
+    float: left;/*fluatuado a esquerda*/
+}
+@media screen and (max-width: 768px){
+   .container{
+       text-align: center;
+   }
+    .box{
+        float: none;
+        display: inline-block;
+        width: 40%;
+    }
+}
+/*
+@media screen and (max-width: 580px){/*quando a largura ultrapassar 580px ela vai ficar 50%*/
+    /*.box{
+        width: 50%;/*determina a largura da área de conteúdo de um elemento*/
+   /* }
+}
+@media screen and (max-width: 320px){/*quando a largura ultrapassar 320px ela vai ficar 100%*/
+   /* .box{
+        width: 100%;/*determina a largura da área de conteúdo de um elemento*/
+   /* }
+}*/
+/*@media screen and(max-width: 768px) and (max-height: 500px){/*tem que atinger as duas condições: largura 768px e altura 500px*/
+   /* .box{
+        width: 100%;/*determina a largura da área de conteúdo de um elemento*/
+   /* }
+}*/

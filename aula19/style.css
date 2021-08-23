@@ -1,0 +1,40 @@
+*{/*todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    box-sizing: border-box;/*que indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding.*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+.slider{
+    width: 87%;/*determina a largura da área de conteúdo de um elemento*/
+    margin: 0 auto;/*margem cima/baixo de 20, auto centraliza a margem*/
+    max-width: 700px;/*largura máxima do elemento*/
+    height: 500px;/*determina a altura da área do conteúdo de um elemento*/
+    border: 1px solid #ccc;/*tamanho, forma e cor da bordar*/
+    position: relative;/*está posicionado em relação à sua posição normal.*/
+}
+.img-slider{
+    position: absolute;/*está posicionado em relação à sua posição normal.*/
+    left: 0;/*esquerda*/
+    top: 0;/*superior*/
+    width: 100%;/*determina a largura da área de conteúdo de um elemento*/
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+    
+}
+.one{
+    background-color: red;/*cor de fundo*/
+    z-index: 3;/*mudar a ordem*/
+    
+}
+.two{
+    left: 40px;/*para esquerdar*/
+    background-color: orange;/*cor de fundo*/
+    z-index: 2;/*mudar a ordem*/
+}
+.three{
+    left: 80px;/*para esquerdar*/
+    background-color: pink;/*cor de fundo*/
+    z-index: 1;/*mudar a ordem*/
+}

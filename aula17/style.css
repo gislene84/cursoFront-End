@@ -1,0 +1,38 @@
+*{/*pega todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+    box-sizing: border-box;/*As propriedades de largura (width) e de altura (height) incluem o tamanho padding size e a propriedade border, mas não incluem a propriedade margin*/
+}
+
+/*.box{
+    width: calc((100% / 3) + 90px);/*determina a largura da área de conteúdo de um elemento*/
+    /*height: 90px;/*determina a altura da área do conteúdo de um elemento*/
+    /*background-color: red;/*cor de fundo*/
+/*}
+/* para calc, designer responsivo
+.sidebar{
+    width: 300px;/*determina a largura da área de conteúdo de um elemento*/
+    /*sempre que colocarmos 100% no height temos que declarar o html,body*/
+    /*height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+    /*background-color: black;/*cor de fundo*/
+    /*float: left;/*div vai flutuar a esquerda*/
+/*}
+.content{
+    float: left;/*div vai flutuar a esquerda*/ 
+    /*width: calc(100% - 300px);/*determina a largura da área de conteúdo de um elemento*/
+    /*height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+    /*background-color: #ccc;/*cor de fundo*/
+/*}*/
+/*.box{
+    width: 100vw;/*determina a largura da área de conteúdo de um elemento, VW VIEWPORT WIDTH=largura do viewport*/
+   /* height: 100vh;/*determina a altura da área do conteúdo de um elemento, VV VIEWPORT height=altura do viewport*/
+    /*background-color: red;/*cor de fundo*/
+/*}*/
+
+/*para criar uma scrollbar(barra de rolamento*/
+.box2{
+    width: 10px;/*determina a largura da área de conteúdo de um elemento*/
+    height: 9000px;/*determina a altura da área do conteúdo de um elemento*/
+}
+

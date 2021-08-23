@@ -1,0 +1,14 @@
+*{/*pega todos os elementos*/
+    margin: 0;/*tamanho da margem*/
+    padding: 0;/*preenchimento na altura*/
+    /*resetando todas as propriedades padrões do navegador*/
+}
+html, body{
+    height: 100%;/*determina a altura da área do conteúdo de um elemento*/
+}
+h2{
+    font-family: 'STIX Two Text', serif;
+}
+.box p{
+    font-family: "Open Sans";
+}
